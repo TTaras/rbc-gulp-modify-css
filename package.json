@@ -1,0 +1,39 @@
+{
+  "name": "rbc-gulp-modify-css",
+  "version": "0.0.1",
+  "description": "Modify css class name by custom rules",
+  "keywords": [
+    "rbc"
+  ],
+  "homepage": "https://github.com/TTaras/rbc-gulp-modify-css",
+  "author": {
+    "name": "RBC-frontend"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TTaras/rbc-gulp-modify-css.git"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {},
+  "main": "index.js",
+  "_nodeVersion": "0.12.10",
+  "_npmUser": {
+    "name": "ttaras",
+    "email": "tarasov.t@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "ttaras",
+      "email": "tarasov.t@gmail.com"
+    }
+  ],
+  "readme": "ERROR: No README data found!"
+}
