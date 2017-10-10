@@ -17,12 +17,13 @@ module.exports = function(config) {
             this.emit('error', new PluginError('rbc-gulp-modify-css', 'Error config!'));
             return callback(null, file);
         }
-        config = config[file.path];
+
+        var maps = config[file.path];
 
         var contents = file.contents ? file.contents.toString() : '';
-        for (var i = 0; i < config.length; i++) {
-            if (config[i].find && config[i].result) {
-                contents = contents.replace(new RegExp(config[i].find, 'g'), config[i].result);
+        for (var i = 0; i < maps.length; i++) {
+            if (maps[i].find && maps[i].result) {
+                contents = contents.replace(new RegExp(maps[i].find, 'g'), maps[i].result);
             }
         }
 

@@ -1,6 +1,6 @@
 {
   "name": "rbc-gulp-modify-css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Modify css class name by custom rules",
   "keywords": [
     "rbc"
